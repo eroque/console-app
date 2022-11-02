@@ -2,4 +2,4 @@
 using ClassLibrary;
 
 Console.WriteLine("Hello, World!");
-Mailer.SendEmail("a", "b", "c");
+Console.WriteLine(Mailer.SendEmail("a", "b", "c"));
